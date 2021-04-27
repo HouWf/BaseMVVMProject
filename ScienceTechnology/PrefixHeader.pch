@@ -1,0 +1,73 @@
+//
+//  PrefixHeader.pch
+//  ScienceTechnology
+//
+//  Created by 候文福 on 2021/4/25.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define LBXScan_Define_UI
+#define LBXScan_Define_Native
+#define LBXScan_Define_ZXing
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#if __OBJC__
+
+    /****** base ******/
+    #import "STUserInfoModel.h"
+    #import "STBaseNavigationController.h"
+
+    /****** vender ******/
+    #import "AFNetworking.h"
+    #import "MJExtension.h"
+    #import "XAspect.h"
+    #import "IQKeyboardManager.h"
+    #import "Masonry.h"
+    #import "MJRefresh.h"
+    #import "SDImageCache.h"
+    #import "UIImageView+WebCache.h"
+//    #import "WMPageController.h"
+    #import "ReactiveObjC.h"
+    #import "YBImageBrowser.h"
+    #import "SDCycleScrollView.h"
+    #import "MBProgressHUD.h"
+    #import "YYCache/YYCache.h"
+
+
+    /****** tools ******/
+    #import "STMacro.h"
+    #import "STInterfaceContants.h"
+    #import "STEnumerationContants.h"
+    #import "STNotificationKeyManager.h"
+    #import "STSDKConfigManager.h"
+    #import "STUserDefaultKeyManager.h"
+    #import "STAppDelegateConfig.h"
+    #import "TostaObject.h"
+    #import "DCObjManager.h"
+    #import "AlertView.h"
+
+    /****** Category ******/
+    #import "NSString+Category.h"
+    #import "NSString+TimeCategory.h"
+    #import "UIImageView+Category.h"
+    #import "UIColor+Category.h"
+    #import "UIButton+Category.h"
+    #import "UIImage+Category.h"
+    #import "UIView+Category.h"
+    #import "UIViewController+Category.h"
+    #import "NSDictionary+Category.h"
+    #import "NSMutableDictionary+Category.h"
+    #import "NSObject+ExchangeM.h"
+    #import "NSObject+Extension.h"
+    #import "UILabel+Category.h"
+    #import "UILabel+YBAttributeTextTapAction.h"
+
+    /****** singleton ******/
+    #import "STSingletonManager.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */

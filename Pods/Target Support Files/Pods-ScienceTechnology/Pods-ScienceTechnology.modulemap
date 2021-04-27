@@ -1,0 +1,6 @@
+framework module Pods_ScienceTechnology {
+  umbrella header "Pods-ScienceTechnology-umbrella.h"
+
+  export *
+  module * { export * }
+}
